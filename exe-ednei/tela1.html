@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tela 1</title>
+</head>
+<body>
+        
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Dropdown
+                <i class="fa fa-caret-down"></i>
+                </button>
+              <div class="dropdown-content" id="myDropdown">
+                  <a href="#">Classes</a>
+                  <a href="#">Degrees</a>
+              </div>
+        </div> 
+    </div>
+
+
+    <script>
+            var classes = [ {
+                   id:1,
+                   name:"A",
+            },
+            {
+                   id:2, 
+                   name:"B",
+            },
+            {
+                   id:3, 
+                   name:"C",
+            },
+            {
+                   id:4, 
+                   name:"D",
+            },
+            {
+                   id:5, 
+                   name:"E",
+            },
+            {
+                   id:6, 
+                   name:"F",
+            }
+        ];
+        function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    
+  }
+}
+
+       
+            var degrees = {
+                    id:1, 
+                    name:"Ensino Fundamental",
+                    id:2, 
+                    name:"1° ano do ensino médio",
+                    id:3, 
+                    name:"2° ano ensino médio",
+                    id:4, 
+                    name:"3° ano do ensino médio",  
+                    id:5, 
+                    name:"Cursinho", 
+                    id:6, 
+                    name:"Estudo em casa",
+                    id:7, 
+                    name:"Outros",  
+                    id:8, 
+                    name:"4º ano do ensino fundamental",
+                    id:9, 
+                    name:"5º ano do ensino fundamental",
+                    id:10, 
+                    name:"6º ano do ensino fundamental",
+                    id:11, 
+                    name:"7º ano do ensino fundamental",
+                    id:12, 
+                    name:"8º ano do ensino fundamental", 
+                    id:13, 
+                    name:"9º ano do ensino fundamental", 
+            }
+
+               //console.log(classes, degrees); 
+               
+    </script>
+</body>
+</html>
+
+           
+           
